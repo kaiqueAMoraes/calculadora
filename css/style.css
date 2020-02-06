@@ -1,0 +1,41 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    min-height: 150px;
+    box-shadow: 0px 6px 17px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    max-height: 83vh;
+    overflow: auto;
+    overflow: hidden;
+}
+
+#textNode {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 90%;
+    border-style: none;
+}
+
+#bg{
+    background-color: #3498db;  
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+}
