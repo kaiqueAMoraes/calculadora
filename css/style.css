@@ -42,7 +42,7 @@ section {
 }
 
 .btn,
-.btn-big{
+.btn-big {
     height: 90px;
     margin: 4px;
     border-radius: 10px;
@@ -51,26 +51,42 @@ section {
 }
 
 .btn:hover,
-.btn-big:hover{
+.btn-big:hover {
     transition: box-shadow .3s;
     box-shadow: 0px 6px 17px 3px rgba(0, 0, 0, 0.116);
     cursor: pointer;
 }
+
 .btn {
     width: 90px;
 }
-.btn-big{
+
+.btn-big {
     width: 190px;
 }
-.differ{
+
+.differ {
     background-color: #6272A436;
 }
-.res{
+
+.res {
     background-color: #50FA7B5C;
 }
-.del{
+
+.del {
     background-color: #FF55556B;
 }
-.warning{
+
+.warning {
     background-color: #F1FA8C69;
+}
+
+#textNode {
+    width: 89%;
+    height: 60%;
+    background-color:#282A36;
+    color: white;
+    font-size: 34px;
+    border-style: none;
+    padding: 25px;
 }
