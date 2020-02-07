@@ -49,6 +49,24 @@ multiplicacao.onclick = (event) => {
     tela.value = (numerosClicados + "*")
 }
 
+divisao.onclick = (event) => {
+    let numerosClicados = tela.value
+    tela.value = (numerosClicados + "/")
+}
+
+delete1.onclick = (event) => {
+    let numerosClicados = tela.value
+    numerosClicados = numerosClicados.slice(0, -1);
+    tela.value = numerosClicados;
+    console.log('funciona');
+    console.log(numerosClicados);
+}
+
+menos.onclick = (event) => {
+    let numerosClicados = tela.value
+    tela.value = (numerosClicados + "-")
+}
+
 igual.onclick = (event) => {
     tela.value = eval(tela.value)
     console.log(tela.value)
@@ -56,4 +74,9 @@ igual.onclick = (event) => {
 
 limpar.onclick = () => {
     tela.value = ""
+}
+
+ponto.onclick= (event) => {
+    let numerosClicados = tela.value
+    tela.value = (numerosClicados + ".")
 }
