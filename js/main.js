@@ -58,8 +58,7 @@ delete1.onclick = (event) => {
     let numerosClicados = tela.value
     numerosClicados = numerosClicados.slice(0, -1);
     tela.value = numerosClicados;
-    console.log('funciona');
-    console.log(numerosClicados);
+
 }
 
 menos.onclick = (event) => {
@@ -69,7 +68,6 @@ menos.onclick = (event) => {
 
 igual.onclick = (event) => {
     tela.value = eval(tela.value)
-    console.log(tela.value)
 }
 
 limpar.onclick = () => {
